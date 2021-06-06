@@ -60,3 +60,11 @@ res:{
 >
 > （建议参数5~14）
 
+---
+下面是测试，其他线路请自行尝试
+[线路1](http://api.aoau.top:9999/photos/1/%20%2816%29.png)
+[线路2](http://api.aoau.top:9999/photos/2/%20%2819%29.png)
+[线路3](http://api.aoau.top:9999/photos/3/%20%2834%29.png)
+[线路4](http://api.aoau.top:9999/photos/4/%20%2883%29.png)
+[线路8](http://api.aoau.top:9999/photos/8/%20%2830%29.jpg)
+[线路14](http://api.aoau.top:9999/photos/14/%20%2860%29.jpg)
