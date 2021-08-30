@@ -6,9 +6,9 @@
 >
 >开源协议：MIT
 >
->感谢你的使用，如果喜欢请给仓库点个star：https://github.com/bai-23/photosapi
+>感谢你的使用，如果喜欢请给仓库点个star：https://github.com/yesmore/photosapi
 >
->此接口已接入本人项目(小舍社交app)，请放心食用：https://github.com/bai-23/italk-uniapp
+>此接口已接入本人项目(小舍社交app)，请放心食用：https://github.com/yesmore/italk-uniapp
 >
 >注意：**个人接口，请勿商用。图片收集不易，请珍惜食用。部分图片较大加载缓慢，请耐心等待。**
 
