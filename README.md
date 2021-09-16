@@ -4,11 +4,13 @@
     <img src="https://img.shields.io/github/package-json/v/yesmore/photosapi" alt="star"/>
      <img src="https://img.shields.io/github/license/yesmore/photosapi" alt="star"/>
 </div>
+---
 
 
-
-
-
+>截止已更新：参数 **p** 范围为：1~14（1400张）。
+>
+>
+>
 >如果喜欢请给仓库点个star：https://github.com/yesmore/photosapi
 >
 >此接口为 [小舍图片Api接口](https://github.com/yesmore/photosapi/tree/main) 重构版，新增：
@@ -20,7 +22,7 @@
 
 
 
-## 用户须知
+## 用户使用须知
 
 ### 调用方法
 
@@ -64,10 +66,6 @@ res:{
 
 ```
 
-> 当前已更新：参数page范围为：1~14。
->
-
----
 下面是测试，其他线路请自行尝试
 [线路1](https://cdn.jsdelivr.net/gh/yesmore/img/v2/1/01.jpg)
 [线路2](https://cdn.jsdelivr.net/gh/yesmore/img/v2/2/01.jpg)
@@ -75,6 +73,8 @@ res:{
 [线路4](https://cdn.jsdelivr.net/gh/yesmore/img/v2/4/01.jpg)
 [线路8](https://cdn.jsdelivr.net/gh/yesmore/img/v2/8/01.jpg)
 [线路14](https://cdn.jsdelivr.net/gh/yesmore/img/v2/14/01.jpg)
+
+---
 
 ## 开发者须知
 
@@ -84,17 +84,17 @@ res:{
 - 使用 **[vuEgg-jwt-template](https://github.com/yesmore/vue-egg-jwt-template)** 中的 **egg-server** 管理作为你的 <u>Api</u> 服务器
 - 或者直接`fork`本项目进行二次开发
 
-**关于 PicGo**
+**关于 PicGo**：
 
-访问这里 [下载]()；
+访问这里 [了解]()。
 
-**关于 vuEgg-jwt-template**
+**关于 vuEgg-jwt-template**：
 
-vuEgg-jwt-template 是本人的另一个开源项目，基于 Vue、Eggjs、Jwt 实现的开箱即用的用户鉴权模板，使开发人员专注于核心逻辑编写，了解 [详情](https://github.com/yesmore/vue-egg-jwt-template)；
+vuEgg-jwt-template 是本人的另一个开源项目，基于 Vue、Eggjs、Jwt 实现的开箱即用的用户鉴权模板，使开发人员专注于核心逻辑编写，了解 [详情](https://github.com/yesmore/vue-egg-jwt-template)。
 
-**关于 CDN 加速**
+**关于 CDN 加速**：
 
-访问了解 [详情](https://www.jsdelivr.com/?docs=gh)；
+访问了解 [详情](https://www.jsdelivr.com/?docs=gh)。
 
 ### 快速开始
 
