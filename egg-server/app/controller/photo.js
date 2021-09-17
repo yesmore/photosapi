@@ -40,7 +40,7 @@ class PhotoController extends Controller {
           }
         }
         ctx.body = {
-          msg: 'Github：https://github.com/yesmore/Photo_bed_v2',
+          msg: 'Github：https://github.com/yesmore/photosapi',
           currentPage: query.p,
           photoNum: photoList.length,
           totalUsers: ips ? ips.length : 0,

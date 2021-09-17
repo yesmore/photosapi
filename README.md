@@ -16,12 +16,12 @@
 >
 >如果喜欢请给仓库点个star：https://github.com/yesmore/photosapi
 >
->此接口为 [小舍图片Api接口](https://github.com/yesmore/photosapi/tree/main) 重构版，新增：
+>此接口为 [小舍图片Api接口](https://github.com/yesmore/photosapi/tree/v1.0.0) 重构版，新增：
 >
 >- **CDN** 加速
 >- 接口调用统计功能
 >
->注意：**个人接口，请勿商用。图片收集不易，请珍惜食用。部分图片较大加载缓慢，请耐心等待。**
+>注意：**个人接口，请勿商用。图片收集不易，请珍惜食用。**
 
 
 
@@ -53,7 +53,7 @@ async fetchPhotos() {
 
 ```js
 res:{
-	"msg": "Github：https://github.com/yesmore/Photo_bed_v2",
+	"msg": "Github：https://github.com/yesmore/photosapi",
 	"currentPage": "3",
 	"photoNum": 100,
 	"totalUsers": 3,
@@ -65,7 +65,6 @@ res:{
 	],
 	"info": "图片来源于网络，仅供个人娱乐。"
 }
-
 
 ```
 
@@ -121,7 +120,7 @@ $ git clone https://github.com/yesmore/photosapi.git
 ```bash
 $ cd egg-server
 $ npm i
-# Start Front-end
+# Start 
 $ npm run dev
 ```
 

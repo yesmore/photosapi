@@ -57,7 +57,17 @@ module.exports = appInfo => {
     port: 3306,
     username: 'root',
     password: '123',
-    timezone: '+8:00',
+    timezone: '+08:00',
+    dialectOptions: {
+      dateStrings: true,
+      typeCast(field, next) {
+        // for reading from database
+        if (field.type === "DATETIME") {
+          return field.string();
+        }
+        return next();
+      }
+    }
   }
 
   // Configure access path

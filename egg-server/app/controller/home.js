@@ -6,7 +6,7 @@ class HomeController extends Controller {
   async index() {
     const { ctx } = this;
     ctx.body = {
-      msg: 'Correct URL: http://127.0.0.1:7001/v2/pb?p=pageNum',
+      msg: 'Correct URL: http://v2.aoau.top/pb?p=pageNum',
       status: 400
     };
   }
