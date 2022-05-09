@@ -2,11 +2,9 @@
     <h1>小舍图片Api接口 v2</h1>
     <img src="https://img.shields.io/github/stars/yesmore/photosapi.svg" alt="star"/>
     <img src="https://img.shields.io/github/package-json/v/yesmore/photosapi" alt="star"/>
-     <img src="https://img.shields.io/github/license/yesmore/photosapi" alt="star"/>
+    <img src="https://img.shields.io/github/license/yesmore/photosapi" alt="star"/>
 </div>
 
-
----
 
 
 
