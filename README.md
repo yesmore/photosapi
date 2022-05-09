@@ -1,17 +1,6 @@
-# 小舍图片Api接口
+# 小舍图片Api接口（已关闭）
 
->项目名称：小舍图片Api接口
->
->开发人员：熙子黒
->
->开源协议：MIT
->
->感谢你的使用，如果喜欢请给仓库点个star：https://github.com/yesmore/photosapi
->
->此接口已接入本人项目(小舍社交app)，请放心食用：https://github.com/yesmore/italk-uniapp
->
->注意：**个人接口，请勿商用。图片收集不易，请珍惜食用。部分图片较大加载缓慢，请耐心等待。**
-
+> 此版本接口已关闭，请使用 [v2](https://github.com/yesmore/photosapi) 版本
 
 
 ### 调用方法
