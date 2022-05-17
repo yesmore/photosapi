@@ -6,7 +6,7 @@ class PhotoController extends Controller {
   async index() {
     const { ctx } = this;
     let ips, totalCall = 0;
-    const baseUrl = 'https://cdn.jsdelivr.net/gh/yesmore/img/v2/';
+    const baseUrl = 'https://fastly.jsdelivr.net/gh/yesmore/img/v2/';
     let photoList = [];
     let { query, ip } = ctx.request;
 

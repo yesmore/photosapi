@@ -5,23 +5,16 @@
     <img src="https://img.shields.io/github/license/yesmore/photosapi" alt="star"/>
 </div>
 
-
-
-
->截止已更新：参数 **p** 范围为：1~14（1400张）。
+> 截止已更新：参数 **p** 范围为：1~14（1400 张）。
 >
+> 如果喜欢请给仓库点个 star：https://github.com/yesmore/photosapi
 >
+> 此接口为 [小舍图片 Api 接口](https://github.com/yesmore/photosapi/tree/v1.0.0) 重构版，新增：
 >
->如果喜欢请给仓库点个star：https://github.com/yesmore/photosapi
+> - **CDN** 加速
+> - 接口调用统计功能
 >
->此接口为 [小舍图片Api接口](https://github.com/yesmore/photosapi/tree/v1.0.0) 重构版，新增：
->
->- **CDN** 加速
->- 接口调用统计功能
->
->注意：**个人接口，请勿商用。图片收集不易，请珍惜食用。**
-
-
+> 注意：**个人接口，请勿商用。图片收集不易，请珍惜食用。**
 
 ## 用户使用须知
 
@@ -31,12 +24,11 @@
 
 方法：`GET`
 
-| url  | 参数 | 值     | 必须 |
-| ---- | ---- | ------ | ---- |
-| /pb  | p    | number | 是   |
+| url | 参数 | 值     | 必须 |
+| --- | ---- | ------ | ---- |
+| /pb | p    | number | 是   |
 
-
-### ajax请求示例
+### ajax 请求示例
 
 ```js
 async fetchPhotos() {
@@ -45,7 +37,7 @@ async fetchPhotos() {
 },
 ```
 
-示例url：`http://v2.aoau.top/pb?p=3`
+示例 url：`http://v2.aoau.top/pb?p=3`
 
 返回值：
 
@@ -58,7 +50,7 @@ res:{
 	"totalCall": 49,
 	"uip": "127.0.0.1",
 	"photoList": [
-		"https://cdn.jsdelivr.net/gh/yesmore/img/v2/3/01.jpg",
+		"https://fastly.jsdelivr.net/gh/yesmore/img/v2/3/01.jpg",
 		...
 	],
 	"info": "图片来源于网络，仅供个人娱乐。"
@@ -67,12 +59,12 @@ res:{
 ```
 
 下面是测试，其他线路请自行尝试
-[线路1](https://cdn.jsdelivr.net/gh/yesmore/img/v2/1/01.jpg)
-[线路2](https://cdn.jsdelivr.net/gh/yesmore/img/v2/2/01.jpg)
-[线路3](https://cdn.jsdelivr.net/gh/yesmore/img/v2/3/01.jpg)
-[线路4](https://cdn.jsdelivr.net/gh/yesmore/img/v2/4/01.jpg)
-[线路8](https://cdn.jsdelivr.net/gh/yesmore/img/v2/8/01.jpg)
-[线路14](https://cdn.jsdelivr.net/gh/yesmore/img/v2/14/01.jpg)
+[线路 1](https://fastly.jsdelivr.net/gh/yesmore/img/v2/1/01.jpg)
+[线路 2](https://fastly.jsdelivr.net/gh/yesmore/img/v2/2/01.jpg)
+[线路 3](https://fastly.jsdelivr.net/gh/yesmore/img/v2/3/01.jpg)
+[线路 4](https://fastly.jsdelivr.net/gh/yesmore/img/v2/4/01.jpg)
+[线路 8](https://fastly.jsdelivr.net/gh/yesmore/img/v2/8/01.jpg)
+[线路 14](https://fastly.jsdelivr.net/gh/yesmore/img/v2/14/01.jpg)
 
 ---
 
@@ -101,7 +93,7 @@ vuEgg-jwt-template 是本人的另一个开源项目，基于 Vue、Eggjs、Jwt 
 开始之前，请确保你有以下环境：
 
 - Nodejs
-- Npm（Nodejs自带）
+- Npm（Nodejs 自带）
 - MySQL 5.7.x
 
 #### Clone git repo
@@ -118,7 +110,7 @@ $ git clone https://github.com/yesmore/photosapi.git
 ```bash
 $ cd egg-server
 $ npm i
-# Start 
+# Start
 $ npm run dev
 ```
 
@@ -141,8 +133,6 @@ $ npm run dev
 	|- package.json
 	|- ...
 ```
-
-
 
 ## License
 
